@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.barraNav {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background-color: #242424;
+}
+
+li {
+    padding: 2%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul img {
+    padding-right: 50%;
+}
+
+.tituloPropuesta {
+    padding-left: 10%;
+    padding-top: 4%;
+}
+
+.propuesta {
+    padding-left: 10%;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #935120;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
