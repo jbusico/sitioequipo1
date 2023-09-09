@@ -31,8 +31,12 @@ div h3 {
     padding-top: 2%;
 }
 
-li {
+nav li {
     padding: 2%;
+}
+
+li {
+    padding-bottom: 10px;
 }
 
 a {
@@ -54,11 +58,24 @@ nav ul li :hover {
     font-family: 'Alata', sans-serif;
 }
 
+.subtitulo {
+    padding-left: 10%;
+    padding-top: 4%;
+    font-family: 'Alata', sans-serif;
+    color: #935120;
+}
+
 .propuesta {
     padding-left: 10%;
     font-family: 'Alata', sans-serif;
 }
 
+.ul-propuesta {
+    padding-left: 12%;
+    padding-top: 10px;
+    font-family: 'Alata', sans-serif;
+}
+    
 footer {
     position: absolute;
     bottom: 0;
