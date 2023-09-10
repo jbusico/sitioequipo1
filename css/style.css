@@ -12,6 +12,15 @@
     font-family: 'Alata', sans-serif;
 }
 
+.logoNav {
+    padding-right: 50%;
+    display: flex;
+}
+
+.logoNav img {
+    width: 200px;
+}
+
 .imagenGrupal {
     padding-left: 12%;
     padding-top: 10%;
@@ -75,7 +84,7 @@ nav ul li :hover {
     padding-top: 10px;
     font-family: 'Alata', sans-serif;
 }
-    
+
 footer {
     position: absolute;
     bottom: 0;
