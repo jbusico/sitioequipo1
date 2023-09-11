@@ -12,13 +12,18 @@
     font-family: 'Alata', sans-serif;
 }
 
-.logoNav {
-    padding-right: 50%;
-    display: flex;
+#divLogo {
+    padding-left: 1%;
+    display: inline;
+    float: left;
+    background-color: #242424;
 }
 
-.logoNav img {
-    width: 200px;
+#logoUade {
+    width: 145px;
+    height: 60px;
+    position: fixed;
+    background-color: #242424;
 }
 
 .imagenGrupal {
@@ -86,7 +91,7 @@ nav ul li :hover {
 }
 
 footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0;
     background-color: #935120;
