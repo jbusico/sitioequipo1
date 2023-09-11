@@ -22,7 +22,7 @@
 #logoUade {
     width: 145px;
     height: 60px;
-    position: fixed;
+    position: sticky;
     background-color: #242424;
 }
 
