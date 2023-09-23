@@ -181,12 +181,82 @@ footer {
     flex-wrap: wrap;
 }
 
-@media only screen and (min-width:320px) and (max-width:768px) {
-    .container-card1 {
-        flex-wrap: wrap;
+/* MEDIA QUERIES */
+
+@media (max-width: 768px) {
+    #logoUade {
+        margin-left: 30%;
     }
 
-    .card1 {
-        margin: 15px;
+    .barraNav {
+        display: wrap;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .barraNav li {
+        padding-right: 13%;
+    }
+
+    nav {
+        background-color: #242424;
+    }
+
+    .imagenGrupal {
+        margin-left: 25%;
+    }
+
+    .titulosIndex {
+        padding-left: 30px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .titulo {
+        padding-right: 51%;
+    }
+
+    .container-card {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .card {
+        width: 75%;
+    }
+
+    main {
+        overflow-x: hidden;
+    }
+
+    .tituloPropuesta {
+        padding-right: 8%;
+    }
+
+    .propuesta {
+        padding-bottom: 5%;
+    }
+
+    .subtitulo {
+        padding-left: 12%;
+    }
+
+    .tituloAvances {
+        font-family: 'Alata', sans-serif;
+    }
+
+    footer {
+        font-size: 12px;
+        position: relative;
+    }
+
+    .footer1 {
+        position: absolute;
     }
 }
