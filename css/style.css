@@ -22,8 +22,10 @@
 #logoUade {
     width: 145px;
     height: 60px;
-    position: sticky;
+    position: fixed;
     background-color: #242424;
+    padding-left: 5px;
+    padding-top: 5px;
 }
 
 .imagenGrupal {
@@ -70,6 +72,12 @@ nav ul li :hover {
     padding-left: 10%;
     padding-top: 4%;
     font-family: 'Alata', sans-serif;
+}
+
+.tituloAvances {
+    font-family: 'Alata', sans-serif;
+    padding-left: 5%;
+    padding-top: 3%;
 }
 
 .subtitulo {
@@ -186,7 +194,9 @@ footer {
 @media (max-width: 768px) {
     #logoUade {
         margin-left: 30%;
+        position: sticky;
     }
+
 
     .barraNav {
         display: wrap;
@@ -253,10 +263,32 @@ footer {
 
     footer {
         font-size: 12px;
-        position: relative;
+        position: static;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1024px) {
+    main {
+        overflow-x: hidden;
     }
 
-    .footer1 {
+    .container-card {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-left: 10%;
+
+    }
+
+    .card {
+        width: 50%;
+    }
+
+    footer {
+        font-size: 15px;
+        position: fixed;
+    }
+
+    #logoUade {
         position: absolute;
     }
 }
