@@ -217,7 +217,7 @@ footer {
     }
 
     .titulosIndex {
-        padding-left: 30px;
+        padding-left: 40px;
     }
 
     h1 {
@@ -225,7 +225,7 @@ footer {
     }
 
     h2 {
-        text-align: center;
+        padding-left: 80px;
     }
 
     .titulo {
@@ -235,10 +235,11 @@ footer {
     .container-card {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        padding-left: 10%;
     }
 
     .card {
-        width: 75%;
+        width: 60%;
     }
 
     main {
