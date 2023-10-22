@@ -311,6 +311,8 @@ footer {
 #arbolSitio {
     width: 886px;
     height: 519px;
+    margin-left: 260px;
+    margin-right: 277px;
 }
 
 #cajaImagenes {
@@ -413,6 +415,8 @@ footer {
         display: grid;
         grid-template-columns: 1fr 1fr;
         margin: unset;
+        padding-right: 200px;
+        padding-left: 35px;
     }
 
     #arbolSitio {
