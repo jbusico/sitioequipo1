@@ -35,6 +35,7 @@
 
 .titulosIndex {
     padding-left: 35%;
+    padding-top: 10%;
     font-family: 'Alata', sans-serif;
 }
 
@@ -97,9 +98,27 @@ hr {
     padding-left: 5%;
 }
 
+#rol {
+    padding-bottom: 3%;
+}
+
 .subtitulo {
     padding-left: 10%;
     padding-top: 4%;
+    font-family: 'Alata', sans-serif;
+    color: #935120;
+}
+
+.subtitulo2 {
+    font-family: 'Alata', sans-serif;
+    padding-left: 5%;
+    padding-top: 3%;
+    color: #935120;
+}
+
+.fuentes {
+    padding-left: 5%;
+    padding-top: 0.64px;
     font-family: 'Alata', sans-serif;
     color: #935120;
 }
@@ -323,15 +342,6 @@ footer {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.imagenOds {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: white;
-    background-size: cover;
-}
-
 /* MEDIA QUERIES */
 
 @media (max-width: 768px) {
@@ -339,7 +349,6 @@ footer {
         margin-left: 30%;
         position: sticky;
     }
-
 
     .barraNav {
         display: wrap;
@@ -435,7 +444,9 @@ footer {
 
     footer {
         font-size: 12px;
-        position: static;
+        /* position: static; */
+        position: absolute;
+        bottom: 0;
     }
 }
 
