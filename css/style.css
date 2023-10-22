@@ -411,8 +411,13 @@ footer {
         padding-left: 12%;
     }
 
+    .subtitulo2 {
+        text-align: center;
+    }
+
     .tituloAvances {
         font-family: 'Alata', sans-serif;
+        text-align: center;
     }
 
     #cajaImagenes {
@@ -440,13 +445,20 @@ footer {
 
     #logoSitio {
         margin-left: unset;
+        margin-left: 23%;
+    }
+
+    .boton {
+        margin-left: 10%;
+    }
+
+    hr {
+        width: 50%;
     }
 
     footer {
         font-size: 12px;
-        /* position: static; */
-        position: absolute;
-        bottom: 0;
+        position: static;
     }
 }
 
