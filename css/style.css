@@ -12,6 +12,10 @@
     font-family: 'Alata', sans-serif;
 }
 
+#mainAvances {
+    overflow-x: hidden;
+}
+
 #divLogo {
     padding-left: 1%;
     display: inline;
