@@ -138,6 +138,11 @@ hr {
     font-family: 'Alata', sans-serif;
 }
 
+iframe {
+    margin-left: 11%;
+    padding-top: 10px;
+}
+
 footer {
     bottom: 0;
     left: 0;
@@ -191,11 +196,16 @@ footer {
     padding-left:20px;
     padding-right:20px;
     margin-left: 5%;
-    /* margin-top: 2%; */
     background-color:#d1b181;
     border-color: #935120;
     border-width: 3px;
     border-style: solid;
+    transition: all 400ms ease-out;
+}
+
+.boton a:hover {
+    color: #603312;
+    transition: all 400ms ease-out;
 }
 
 .container-card {
